@@ -1,0 +1,85 @@
+body{
+    background-color: indigo;
+    color: aliceblue;
+}
+
+h2, h3{
+    font-size: 2em;
+    padding-left: 30px;
+}
+
+p, ul{
+    font-size: 1.2em;
+}
+
+#borde{
+
+   border: 2px solid white;
+   width: fit-content;
+   margin: auto;
+   background-color: lightslategray;
+   padding: 2em;
+}
+
+#princ{
+    font-size: 3em;
+}
+
+#menu{
+    padding: 1em;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.parrafos{
+    background-color: black;
+    margin: 2em;
+    padding: 40px;
+}
+
+.imagenes{
+    border: 5px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    margin: 2em;
+    border-radius: 10%;
+    transition: background-color 1s ease-in-out, background-image 2s ease-in-out;
+    /*sirve para elegir a que darle una transcision*/ /* ease-in-out = para darle un tipo de animación*/
+}
+
+.imagenes:hover{
+    background-color: maroon;
+    background-position: center;
+    /* Establece la imagen de fondo */
+    background-image: url(./imagenes/4de7d62f50fed7a598670b3e8803d34f_w200.gif);
+    /* Ajusta el tamaño de la imagen de fondo */
+    background-size: cover;
+    /* Fija la imagen de fondo para que no se repita */
+    background-repeat: no-repeat;
+    
+}
+
+.imagenes:not(:hover){
+    transition:background-color 0.5s ease-in-out, background-image 2s ease-in-out;
+    /*sirve para elegir a que darle una transcision al final*/ /* ease-in-out = para darle un tipo de animación*/
+}
+
+
+
+.parrafo{
+    padding-bottom: 1em;
+    margin: auto;
+}
+
+#cajas{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    border-radius: 15px;
+}
