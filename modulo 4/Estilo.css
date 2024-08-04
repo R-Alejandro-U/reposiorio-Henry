@@ -49,6 +49,7 @@ p, ul{
     border-radius: 10%;
     transition: background-color 1s ease-in-out, background-image 2s ease-in-out;
     /*sirve para elegir a que darle una transcision*/ /* ease-in-out = para darle un tipo de animación*/
+    align-items: center;
 }
 
 .imagenes:hover{
